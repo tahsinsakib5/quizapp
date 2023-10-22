@@ -24,14 +24,14 @@ class _HomePageState extends State<HomePage> {
 
             ElevatedButton(onPressed: () {
               Navigator.push(context,MaterialPageRoute(builder: (context) => QuizScreen(),));
-            }, child: Text("quiz")),
+            }, child: Text("quiz scren")),
             ElevatedButton(onPressed: (){
               addDataToDB();
-            }, child:Icon(Icons.abc)),
+            }, child:Text("Add data")),
 
             ElevatedButton(onPressed: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) => AdminPanel(),));
-            }, child:Text("adddata")),
+            }, child:Text("add data by textfield")),
 
 
             ElevatedButton(onPressed: () {

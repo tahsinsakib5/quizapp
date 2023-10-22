@@ -107,7 +107,7 @@ class _AdminquizState extends State<Adminquiz> {
 
              ElevatedButton(onPressed: () {
                addDataToDB();
-             }, child: Text("adddata"))
+             }, child: Text("Add data by textfield"))
             ],
         ),
 
