@@ -3,6 +3,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebasepoject/adminpanel.dart';
 import 'package:firebasepoject/delet.dart';
+import 'package:firebasepoject/imagetest.dart';
 import 'package:firebasepoject/quizscren.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +24,7 @@ class _HomePageState extends State<HomePage> {
           children: [
 
             ElevatedButton(onPressed: () {
-              Navigator.push(context,MaterialPageRoute(builder: (context) => QuizScreen(),));
+              Navigator.push(context,MaterialPageRoute(builder: (context) => imagepage()));
             }, child: Text("quiz scren")),
             ElevatedButton(onPressed: (){
               addDataToDB();
